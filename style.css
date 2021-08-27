@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(255, 255, 255);
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#image {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 4rem;
+  height: 60vh;
+  width: 40vw;
+}
+
+iframe {
+  margin-bottom: 4rem;
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+  margin: 1rem 4rem;
+}
+
+/* top navbar styling */
+.top {
+  background-color: rgb(202, 70, 9);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top span {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 2rem;
+}
+
+.top ul {
+  margin-right: 4rem;
+}
+
+.top ul a {
+  color: rgb(248, 247, 247);
+  font-size: 1.5rem;
+  padding: 30px 7px;
+  margin: 0.03rem;
+}
+
+.top ul a:hover {
+  color: rgb(202, 70, 9);
+  background-color: rgb(250, 223, 183);
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background: url("images/leaves.jpg") center center/contain;
+  color: rgb(255, 255, 255);
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-family: "Brush Script MT", cursive;
+  padding: 2rem;
+}
+
+.hero-section span {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 5rem;
+}
+
+/*Secondary Pages Hero Styling */
+
+/* Hero Section Styling */
+.hero-section-2 {
+  background: url("images/leaves.jpg") center center/contain;
+  color: rgb(255, 255, 255);
+  height: 110px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-section-2 h1 {
+  font-family: "Brush Script MT", cursive;
+}
+
+.hero-section-2 span {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 5rem;
+}
+
+/* main content styling */
+main.container {
+  /* background-color: rgba(255, 251, 6, 0.164); */
+  margin: auto;
+  max-width: 80vw;
+}
+
+/* gives all columns in card even sizing */
+.card > * {
+  flex-basis: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-text,
+#card-text-2 {
+  text-align: center;
+  padding: 1rem;
+}
+/* icon styling */
+i {
+  padding: 32px;
+}
+
+/* table styling */
+table,
+th,
+td {
+  border: 3px solid rgb(119, 55, 3);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  margin: auto;
+}
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+}
+
+#in {
+  color: rgb(255, 255, 255);
+  background-color: rgb(243, 194, 60);
+}
+
+/* Form styling */
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  margin: auto;
+}
+
+.form label {
+  margin-top: 10px;
+}
+
+/* footer styling */
+footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(224, 166, 6);
+  color: #fff;
+}
+
+footer span {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 2rem;
+}
+
+footer a {
+  color: rgb(248, 247, 247);
+}
+
+.fab {
+  margin-right: 1rem;
+  padding: 16px;
+}
+
+footer #logo {
+  margin-left: 1rem;
+}
